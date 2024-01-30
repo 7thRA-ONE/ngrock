@@ -1,9 +1,10 @@
 {
-  "functions": {
-    "api/generate": {
-      "runtime": "@vercel/node"
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/(.*)",
