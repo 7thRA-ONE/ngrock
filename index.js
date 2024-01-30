@@ -14,9 +14,9 @@ app.get('/download/:id', (req, res) => {
 
   // Example: mapping IDs to file paths
   const fileMap = {
-    'zerotwo': 'creds.json',
-    'shikimori': 'creds-shiki.json',
-    'mai': 'creds-mai.json',
+    'zerotwo': './creds.json',
+    'shikimori': './creds-shiki.json',
+    'mai': './creds-mai.json',
     // Add more mappings as needed
   };
 
