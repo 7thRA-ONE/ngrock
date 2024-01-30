@@ -1,0 +1,15 @@
+ {
+  "functions": {
+    "api/generate": {
+      "runtime": "@vercel/node",
+
+      "maxDuration": 100
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
+}
