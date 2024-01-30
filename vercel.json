@@ -1,9 +1,7 @@
- {
+{
   "functions": {
     "api/generate": {
-      "runtime": "@vercel/node",
-
-      "maxDuration": 100
+      "runtime": "@vercel/node"
     }
   },
   "routes": [
